@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+        <h2>Form Registration </h2>
+    </header>
+
+    <main>
+        <form >
+        <fieldset>
+            <legend>Enter Your Name</legend>
+            <label for="name">Your Name:</label>
+            <input type="text" name="name"id="name" palceholder="Enter your name">
+        </fieldset>
+        <fieldset>
+            <legend>Enter your mail</legend>
+            <label for="email">Your Email:</label>
+            <input type="email" name="email"id="email" placeholder="Enter your email" required><br><br>
+            <label for="password">Your Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter the Password" required>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">Male 
+            <input type="radio" name="gender" id="female">Female
+        </fieldset>
+        <fieldset>
+            <legend>Religion</legend>
+            <label for="religion">Religion:</label>
+            <input type="checkbox" name="religion" id="islam">islam
+            <input type="checkbox" name="religion" id="hindu">Hindu
+        </fieldset>
+        <fieldset>
+            <label for="department">Department:</label>
+            <select name="department">Department
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="llb">LLB</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comment here</legend>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+         <input type="submit" value="Submit">
+         <button>Reset</button>
+          
+        </form>
+       
+
+    </main>
+</body>
+</html>
